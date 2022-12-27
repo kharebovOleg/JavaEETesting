@@ -47,4 +47,13 @@
         <servlet-name>DeleteCookiesServlet</servlet-name>
         <url-pattern>/delete-cookies</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BookServlet</servlet-name>
+        <servlet-class>BooksServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookServlet</servlet-name>
+        <url-pattern>/library</url-pattern>
+    </servlet-mapping>
 </web-app>
